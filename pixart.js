@@ -5,6 +5,7 @@ let brush = document.querySelector(".brush");
 console.log(brush.style);
 let input = document.querySelector('input');
 console.log(input);
+let body = document.querySelector('body');
 
 function handler(e) {
   console.log(e);
@@ -13,3 +14,10 @@ function handler(e) {
 }
 
 button.addEventListener('click', handler);
+
+
+for (i = 0; i < 20; i ++) {
+  let square = document.createElement('div');
+  square.classList.add('square');
+  body.appendChild(square);
+}
