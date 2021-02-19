@@ -22,7 +22,7 @@ for (i = 0; i < 20; i ++) {
   square.classList.add('square');
   body.appendChild(square);
   square.addEventListener("click", function(){
-    square.style.background = 'green'
+    square.style.background = input.value
   })
 }
 
