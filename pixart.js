@@ -16,14 +16,14 @@ function handler(e) {
 button.addEventListener('click', handler);
 //skip two per Teo
 
-//three
-for (i = 0; i < 20; i ++) {
+//three four five & six
+for (i = 0; i < 8000; i ++) {
   let square = document.createElement('div');
   square.classList.add('square');
   body.appendChild(square);
-  square.addEventListener("click", function(){
+  square.addEventListener("mouseover", function(){
     square.style.background = input.value
   })
 }
 
-//four
+
